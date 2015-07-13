@@ -1,0 +1,101 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:orientation="horizontal"
+        android:background="@android:color/background_dark">
+
+        <LinearLayout
+            android:layout_width="90dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_profile"
+                android:src="@drawable/profilepicture"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_profile"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/welcome"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:padding="5dp"
+                android:textColor="@android:color/white"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    android:id="@+id/ratinglist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:color/holo_blue_dark"
+                    style="@android:style/Widget.Holo.RatingBar.Small"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:id="@+id/textView_marca"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/headphone"
+                    android:paddingLeft="5dp"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:id="@+id/buttonset"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_input_add"
+                android:background="@android:color/background_dark"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

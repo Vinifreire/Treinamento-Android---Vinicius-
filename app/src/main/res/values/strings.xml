@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">I like my headphone</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="name">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="passwordagain">Repita a senha</string>
+    <string name="showpassword">Mostrar senha</string>
+    <string name="login">Entrar</string>
+    <string name="signin">Registrar-se </string>
+    <string name="signinregister">CADASTRAR </string>
+    <string name="forgetpassword">Esqueci minha senha</string>
+    <string name="title_activity_registrar">RegistrarActivity</string>
+    <string name="recoverpassword">RECUPERAR MINHA SENHA</string>
+    <string name="title_activity_register">Resgistrar-se</string>
+    <string name="title_activity_recover">Esqueci minha senha</string>
+    <string name="recovertext">Digite seu e-mail para reiniciar sua senha e receber por e-mail.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_my_custom_list">MyCustomListActivity</string>
+    <string name="welcome">Conte-nos sobre o seu headphone estamos ansiosos para saber!</string>
+    <string name="headphone">Sony AH301</string>
+    <string name="allwrong">Email e senha estão incorreto</string>
+    <string name="emailwrong">Email não existe</string>
+    <string name="paasswordwrong">Senha incorreta</string>
+    <string name="registerdatawrong">Dados incorretos !!!</string>
+    <string name="recovermessage">Nova senha enviado para email informado</string>
+    <string name="title_activity_send_post">SendPostActivity</string>
+    <string name="modelo">Modelo</string>
+    <string name="marca">Marca</string>
+    <string name="classificação">Classificação</string>
+    <string name="Avaliação">Avaliação</string>
+    <string name="seereview">See review</string>
+    <string name="send">Enviar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_see_review">SeeReviewActivity</string>
+
+</resources>
